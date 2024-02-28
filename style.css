@@ -1,0 +1,44 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation-name: box-sliding;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+
+}
+@keyframes box-sliding {
+    
+        0%{
+            background-color: blue;
+        }
+
+        25% {
+            background-color: green;
+            top: 500px;
+            left: 0px;
+        }
+
+        50% {
+            background-color: red;
+            top: 500px;
+            left: 500px;
+        }
+
+        75% {
+            background-color: yellow;
+            top: 0px;
+            left: 500px;
+            
+        }
+
+        100% {
+            background-color: blue;
+        }
+}
